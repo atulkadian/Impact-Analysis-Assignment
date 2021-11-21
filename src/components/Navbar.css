@@ -1,0 +1,16 @@
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-bottom: 5%;
+  width: 100%;
+}
+
+.active {
+  font-size: 32px;
+  font-weight: 750;
+}
+
+.inactive {
+  font-size: 20px;
+}

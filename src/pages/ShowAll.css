@@ -1,0 +1,32 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.search-box {
+  width: 20%;
+  font-size: 20px;
+  margin: 10px;
+  border-style: solid;
+  border-width: 2px 6px 6px 2px;
+  border-color: white;
+  border-radius: 8px;
+  padding: 5px;
+}
+
+.search-box:focus {
+  outline: none;
+  border-color: aqua;
+  border-width: 6px 2px 2px 6px;
+}
+
+.search-box:hover {
+  border-color: aqua;
+}
+
+.cards {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}

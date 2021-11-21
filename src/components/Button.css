@@ -1,0 +1,16 @@
+button {
+  background: black;
+  color: white;
+  font: inherit;
+  border-style: solid;
+  border-radius: 8px;
+  border-width: 1px 4px 4px 1px;
+  border-color: white;
+}
+
+button:active {
+  border-width: 4px 1px 1px 4px;
+  color: aqua;
+  background-color: rgb(37, 37, 37);
+  border-color: aqua;
+}
